@@ -1,6 +1,5 @@
 provider "aws" {
-region = "us-east-1"
-}
+region = "us-east-1"}
 resource "aws_instance" "one" 
 {
 ami = "ami-0fff1b9a61dec8a5f"
